@@ -184,6 +184,7 @@ async function scrapingDataFromArticle( postHref )
         data.push( article );
       }
   }
+  console.log("Hello Tinhte");
   console.log(data);
   console.log("NOTICE : Done successfully");
 

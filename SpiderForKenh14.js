@@ -87,6 +87,7 @@ let data = [];
         data.push( article);
         
     }
+	console.log("Hello");
     console.log(data);
     fs.writeFileSync('data.json', JSON.stringify(data));
     

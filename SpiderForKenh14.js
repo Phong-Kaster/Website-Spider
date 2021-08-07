@@ -87,8 +87,8 @@ let data = [];
         data.push( article);
         
     }
-	console.log("Hello Kenh14");
+
     console.log(data);
-    fs.writeFileSync('data.json', JSON.stringify(data));
-    
+    fs.writeFileSync('dataKenh14.json', JSON.stringify(data));
+    console.log("Scraped Data Successfully");
 })();
